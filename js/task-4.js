@@ -11,7 +11,7 @@ if (question === null) {
 } else {
   let totalPrice = question * pricePerDroid;
 
-  if (totalPrice >= credits) {
+  if (totalPrice > credits) {
     message = 'Недостаточно средств на счету!';
   } else {
     credits = credits - totalPrice;

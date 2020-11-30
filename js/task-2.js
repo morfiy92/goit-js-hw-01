@@ -2,36 +2,43 @@ let ordered = 50;
 
 const total = 100;
 
-if (ordered >= total) {
-  ordered = ordered - total;
-  console.log('"На складе недостаточно твоаров!"');
-} else {
-  console.log('"Заказ оформлен, с вами свяжется менеджер"');
-}
+// if (ordered >= total) {
+//   ordered = ordered - total;
+//   console.log('"На складе недостаточно твоаров!"');
+// } else {
+//   console.log('"Заказ оформлен, с вами свяжется менеджер"');
+// }
 
-ordered = 20;
+const message =
+  total >= ordered
+    ? '"Заказ оформлен, с вами свяжется менеджер"'
+    : '"На складе недостаточно твоаров!"';
 
-if (ordered >= total) {
-  ordered = ordered - total;
-  console.log('"На складе недостаточно твоаров!"');
-} else {
-  console.log('"Заказ оформлен, с вами свяжется менеджер"');
-}
+console.log(message);
 
-ordered = 80;
+// ordered = 20;
 
-if (ordered >= total) {
-  ordered = ordered - total;
-  console.log('"На складе недостаточно твоаров!"');
-} else {
-  console.log('"Заказ оформлен, с вами свяжется менеджер"');
-}
+// if (ordered >= total) {
+//   ordered = ordered - total;
+//   console.log('"На складе недостаточно твоаров!"');
+// } else {
+//   console.log('"Заказ оформлен, с вами свяжется менеджер"');
+// }
 
-ordered = 130;
+// ordered = 80;
 
-if (ordered >= total) {
-  ordered = ordered - total;
-  console.log('"На складе недостаточно твоаров!"');
-} else {
-  console.log('"Заказ оформлен, с вами свяжется менеджер"');
-}
+// if (ordered >= total) {
+//   ordered = ordered - total;
+//   console.log('"На складе недостаточно твоаров!"');
+// } else {
+//   console.log('"Заказ оформлен, с вами свяжется менеджер"');
+// }
+
+// ordered = 130;
+
+// if (ordered >= total) {
+//   ordered = ordered - total;
+//   console.log('"На складе недостаточно твоаров!"');
+// } else {
+//   console.log('"Заказ оформлен, с вами свяжется менеджер"');
+// }

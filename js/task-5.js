@@ -4,11 +4,10 @@ let message;
 
 let countryName = prompt('В какую страну доставить товар?');
 
-countryName = countryName.toLowerCase();
-
 if (countryName === null) {
   message = 'Отменено пользователем!';
 } else {
+  countryName = countryName.toLowerCase();
   switch (countryName) {
     case 'китай':
       price = 100;
